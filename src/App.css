@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  padding-top: 2rem;
+  height: 100vh;
+}
+
+.drag-and-drop-zone {
+  background-color: #07f;
+  padding: 3rem;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.drag-and-drop-zone.inside-drag-area {
+  opacity: 0.7;
+}
+
+.drag-and-drop-zone p {
+  color: #fff;
+}
+
+h1 {
+  color: #07f;
+}
+
+li {
+  color: #07f;
+  padding: 3px;
+  text-align: left;
+  font-weight: bold;
+}
